@@ -1,0 +1,116 @@
+*
+{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: none;
+    padding: 0px;
+    background-color:white;
+}
+.navbar
+{
+    background-color: aquamarine;
+    width: 90%;
+    margin: 20px auto 0px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 0px 3px;
+}
+.navbar h2
+{
+    padding: 20px;
+    font-weight: 900;
+}
+.navbar ul
+{
+display: flex ;
+}
+.navbar ul li
+{
+    margin-left:10px ;
+    list-style: none;
+    padding:20px ;
+}
+.navbar h2 span
+{
+    color: rebeccapurple;
+}
+.navbar ul li a 
+{
+    text-decoration: none;
+    color: black;
+}
+.hero
+{
+    height: 90vh;
+    width: 90%;
+    margin: 0px auto;
+    box-shadow: 0px 0px;
+    display: flex;
+}
+.hero .heroleft
+{
+    height: 100% ;
+    width: 50%;
+    padding: 0px;
+    background-color: blueviolet;
+    border-radius: none;
+    box-shadow: none;
+    margin: 20px 20px;
+
+}
+.hero .heroleft h2 
+{
+    font-size: 35px;
+    padding: 20px;
+    color: rebeccapurple;
+    font-style:normal;
+    background-color: rgb(50, 43, 90);
+}
+.hero .heroleft h1 span
+{
+    color:rgb(36, 3, 3);
+}
+.hero .heroleft p
+{
+    font-size: 26px;
+    margin: 20px 20px;
+}
+#viewbutton
+{
+    margin-left: 40px;
+    justify-content: space-between;
+    padding: 15px;
+    margin: 10px 10px;
+    border-radius: 15px;
+}
+#contactbutton
+{
+    margin-left: 40px;
+    justify-content: space-between;
+    padding: 15px;
+    margin: 10px 10px;
+    border-radius: 15px;
+}
+.hero  .heroright
+{
+    height: 90vh;
+    width: 50%;
+    padding: 40px;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(170, 62, 192);
+    border-radius: 30px;
+    box-shadow: none;
+}
+.hero .heroright img
+{
+    height: 50vh;
+    padding: 20px;
+    
+}
+.hero .heroright h3
+{
+    padding: 25px;
+
+}
